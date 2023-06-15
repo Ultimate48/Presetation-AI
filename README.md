@@ -1,6 +1,6 @@
 # Presetation-AI
 
-Program Name is a tool that utilizes AI to generate a PDF document based on user specifications.
+Presentation-AI is a tool that utilizes AI to generate a presentation based on user specifications.
 
 ## Instructions
 
