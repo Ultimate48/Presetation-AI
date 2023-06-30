@@ -1,4 +1,4 @@
-# Presetation-AI
+# Presentation-AI
 
 Presentation-AI is a tool that utilizes AI to generate a presentation based on user specifications.
 
