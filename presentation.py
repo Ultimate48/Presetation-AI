@@ -64,9 +64,13 @@ def convert_to_jpeg(image_path):
 
 
 # Example usage
-data = presentationContent(query="Android", pages=10, max_num=40)
+query = "Chess"
+pages = 10
+max_num = 40
+
+data = presentationContent(query, pages, max_num)
 presentation = create_presentation(data)
-presentation.save("presentation.pptx")
+presentation.save(f"{query}.pptx")
 
 for file in os.listdir("Images"):
     os.remove(f"Images/{file}")
