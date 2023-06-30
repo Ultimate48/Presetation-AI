@@ -17,4 +17,4 @@ Presentation-AI is a tool that utilizes AI to generate a presentation based on u
 3. **Run the program**
    - Execute the program to generate the presentation.
    - Ensure that all the required dependencies and libraries are installed.
-   - The generated PDF and README.md files will be saved in the designated output location or directory.
+   - The generated presentation and file will be saved in the designated output location or directory.
