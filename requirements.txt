@@ -1,0 +1,4 @@
+icrawler
+python-pptx
+Pillow
+
