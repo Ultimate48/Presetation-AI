@@ -60,14 +60,11 @@ def convert_to_jpeg(image_path):
     return converted_image_path
 
 
-# Example usage
-query = "Elon Musk"
-pages = 10
-max_num = 40
-data = presentationContent(query, pages, max_num)
-presentation = create_presentation(data)
-presentation.save(f"{query}.pptx")
+def makePresentation(query, pages, max_num):
+    data = presentationContent(query, pages, max_num)
+    presentation = create_presentation(data)
+    presentation.save(f"{query}.pptx")
 
-for file in os.listdir("Images"):
-    os.remove(f"Images/{file}")
+    for file in os.listdir("Images"):
+        os.remove(f"Images/{file}")
 

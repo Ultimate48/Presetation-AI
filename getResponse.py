@@ -1,7 +1,7 @@
 def getResponse(query, maxPages, maxWords):
     import openai
 
-    OPENAI_API_KEY = "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"
+    OPENAI_API_KEY = "OPENAI_API_KEY"
 
     openai.api_key = OPENAI_API_KEY
 
